@@ -1,9 +1,0 @@
----
-hide_body: false
-fields:
-- type: textarea
-  default: default <strong>value </strong><a href="" title=""><strong>link</strong></a>
-  label: label
-  name: label
-  config:
-    wysiwyg: true
