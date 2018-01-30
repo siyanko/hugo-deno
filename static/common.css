@@ -1,0 +1,100 @@
+hr {
+    margin-bottom: 0;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #fff;
+}
+
+.chapter {
+    padding-top: 7.5rem;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;   
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: none;
+}
+
+.btn-outline-success:hover,  
+.btn-outline-success:active, 
+.btn-outline-success:not([disabled]):not(.disabled):active{
+    color: #28a745;
+    background-color: transparent;
+    border-color: #28a745;
+    box-shadow: none;
+}
+.card {
+    border-radius: 0;
+}
+
+a.card-link{
+    color: #09090af0;
+}
+
+img.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+h1 a, h5 a {
+    color:  #09090af0;
+}
+
+h1 a:hover, h5 a:hover {
+    color: #09090af0;
+    text-decoration: none;
+}
+
+a.nav-link {
+    color:rgb(145, 145, 145);
+}
+
+.row > .col-md-8 > p  {
+    margin-top: 1.5rem;
+}
+
+.row > .col-md-8 > h1, h2, h3, h4, h5, h6  {
+    margin-top: 2.0rem;
+}
+
+@media (min-width: 576px) {
+    .card-deck {
+        flex-flow: column wrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .card-deck .card {
+        margin-bottom: 2.0rem;
+    }
+}
+
+@media (min-width: 992px) {
+    p {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 1.58;
+        letter-spacing: -.003em;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-deck {
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .card-deck .card {
+        margin-bottom: 0;
+    }
+
+}
